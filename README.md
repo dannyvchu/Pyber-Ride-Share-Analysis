@@ -25,7 +25,7 @@ By showing PyBer the connections and insights related to these variables, they w
 	- NumPy Library
 
 ## Results
-<img src="analysis/Fig5.png" width="400">, <img src="analysis/Fig6.png" width="400">, <img src="analysis/Fig7.png" width="400">
+<img src="analysis/Fig5.png" width="400"> <img src="analysis/Fig6.png" width="400"> <img src="analysis/Fig7.png" width="400">
 
 Looking at the data, we can obviously see that PyBer is most active in urban cities, then in suburban cities, and lastly, rural cities. urban cities have the high amount of drivers and riders, as well as generating the largest amount of revenue. Although the total percent of rides and total fares seems to be consistent (~60-70%), urban cities have a large disproportionate amount of drivers (86.7%).
 
