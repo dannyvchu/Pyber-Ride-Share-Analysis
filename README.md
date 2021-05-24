@@ -25,66 +25,17 @@ By showing PyBer the connections and insights related to these variables, they w
 	- NumPy Library
 
 ## Results
-After removing the Thomas High School 9th grade students' data, we can compare the new data against the old data set and try to see if there were any significant changes.
-#### District Summary
-Before change:
-![district_summary_old](resources/district_summary_old.png)
+<img src="analysis/Fig5.png" width="400">, <img src="analysis/Fig6.png" width="400">, <img src="analysis/Fig7.png" width="400">
 
-After change:
-![district_summary_new](resources/district_summary_new.png)
+Looking at the data, we can obviously see that PyBer is most active in urban cities, then in suburban cities, and lastly, rural cities. urban cities have the high amount of drivers and riders, as well as generating the largest amount of revenue. Although the total percent of rides and total fares seems to be consistent (~60-70%), urban cities have a large disproportionate amount of drivers (86.7%).
 
-Looking at the overall district data, we can see that the overall impact to the district due to the change is negligible, with percentages decreasing only by a few tenths of a percent at most.
+<img src="analysis/FigTable.png" width="900"> 
 
-#### School Summary
-Top 5 schools before change:
-![top_schools_old](resources/top_schools_old.png)
+Although urban cities dominate in the total amount of rides, drivers, and fares, that is not the case when looking at the average fare per ride or driver. In these cases, rural and suburban cities have a much higher average fare per ride, and a significantly higher average fare per driver compared to their urban counterpart. This may be due to the fact that rural and suburban cities have more total rides than total drivers, whereas urban cities have many more drivers than the total amount of rides.
 
-Top 5 schools after change:
-![top_schools_new](resources/top_schools_new.png)
+<img src="analysis/FigFinal.png" width="900"> 
 
-Similarly to the results from the district summary, we can see that the changes had an insignificant impact on the school metrics. Again the largest changes are only a few tenths of a percent. Relative to the other top performing schools, Thomas High School still remained second even after the changes.
-
-#### Math and Reading Scores
-
-The only thing effected for the math and reading scores here is in the new data, all of the 9th grade math and reading scores have been removed.
-
-#### School Spending
-
-Before:
-![school_spend_old](resources/school_spend_old.png)
-
-After:
-![school_spend_new](resources/school_spend_new.png)
-
-Thomas High School is within the $630-644 spending range. The only two metrics effected here are '% Passing Reading' and '% Overall Passing' which only decrease by a negligible 0.1%.
-
-#### School Size
-
-Before:
-![school_size_old](resources/school_size_old.png)
-
-After:
-![school_size_new](resources/school_size_new.png)
-
-Thomas High School is within the Medium (1000-2000) range. The difference between before and after the change are nearly identical when taking into account school size.
-
-#### School Type
-
-Before:
-![school_type_old](resources/school_type_old.png)
-
-After:
-![school_type_new](resources/school_type_new.png)
-
-The two data frames are identical here.
+Looking at this line plot, its undeniable that urban cities generate the most revenue, followed by suburban and rural cities respectively, regardless of the time of the year. Leading into the month of March, there seems to be a noticeable peak in all of the different city types. More analysis would be needed to understand its significance however.
 
 ## Summary
-
-By removing the 9th grade students' data of Thomas High School from the analysis, we were able to see a drop in performance for certain metrics, albeit a very insignificant one. 
-
-- The changes affected the overall district slightly, causing a small decrease in all the percentage columns. 
-- For schools in the spending ranges of $630-644, there was a slight drop in the '% Passing Reading' and '% Overall Passing' columns. 
-- Taking into account school sizes, there was a slight drop in '% Passing Reading'.
-- As for the school type metric, the data was identical.
-
-As we can clearly see, the new changes to the data resulted in an inconsequential difference in the data, which leads me to believe that perhaps there was little to no alteration to the Thomas High School standard test results.
+Ultimately, PyBer is most active in urban areas, having the highest amount of drivers, rides, and fares generated. Therefore PyBer should focus the majority of its advertising and marketing in those areas. However, there is a significantly higher amount of drivers per ride in urban cities, so focusing on trying to increase that total amount of rides in urban cities, as well as trying to up the total amount of drivers in both rural and suburban areas would be advantageous. Rural cities have a much higher average fare per ride and driver, which could potentially be attributed to both higher average travel distances, as well as a shortage of total drivers. In the future, there could be more analysis done to see the correlation between average travel distance and the other contributing factors.
